@@ -1,4 +1,3 @@
-```python
 import streamlit as st
 
 # ==========================================================
@@ -422,4 +421,3 @@ st.caption(
     "Correlation • Regression • Hypothesis Testing • "
     "Probability • Statistical Tables"
 )
-```
