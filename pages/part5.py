@@ -1096,4 +1096,3 @@ st.caption(
     "Educational use: verify assumptions, sampling design and "
     "expected frequencies before drawing conclusions from real data."
 )
-```
