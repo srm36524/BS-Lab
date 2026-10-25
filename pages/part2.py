@@ -9,7 +9,6 @@ st.set_page_config(
 )
 
 if st.button("🏠 Return to Home"):
-    st.switch_page("home.py")if st.button("🏠 Return to Home"):
     st.switch_page("home.py")
 
 st.title("📊 Business Statistics Learning Lab")
