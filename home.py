@@ -169,4 +169,3 @@ st.success(
 st.caption(
     "Business Statistics Learning Lab | Educational Resource for B.Com and BBA"
 )
-```
