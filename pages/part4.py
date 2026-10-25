@@ -760,4 +760,3 @@ st.caption(
     "Educational tool: verify assumptions and study design before "
     "applying any test to real data."
 )
-```
