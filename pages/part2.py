@@ -258,7 +258,7 @@ def individual_calculation(values, measure, variance_type):
             "|x − A|": dev
         })
 
-        st.dataframe(table, use_container_width=True)
+        st.dataframe(table, width="stretch")
         st.write(f"{center_name} (A) = {fmt(center)}")
         st.write(f"Sum of absolute deviations = {fmt(dev.sum())}")
         st.success(f"Mean Deviation = {fmt(md)}")
