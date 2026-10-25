@@ -779,4 +779,3 @@ st.caption(
     "Values are calculated using SciPy distribution functions. "
     "Small differences from printed tables may arise from rounding."
 )
-```
