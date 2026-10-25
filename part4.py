@@ -10,6 +10,9 @@ st.set_page_config(
     layout="wide"
 )
 
+if st.button("🏠 Return to Home"):
+    st.switch_page("home.py")
+
 st.title("📊 Business Statistics Learning Lab")
 st.subheader("Part 4: Hypothesis Testing — Z and t Tests")
 
