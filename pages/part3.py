@@ -314,7 +314,7 @@ def simple_regression(x, y):
 
     st.latex(
         r"b=\frac{\sum(X-\bar X)(Y-\bar Y)}"
-        r{\sum(X-\bar X)^2}"
+        r"{\sum(X-\bar X)^2}"
     )
 
     st.latex(r"a=\bar Y-b\bar X")
