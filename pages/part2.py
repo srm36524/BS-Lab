@@ -295,7 +295,7 @@ def individual_calculation(values, measure, variance_type):
             "(x − Mean)²": squared_dev
         })
 
-        st.dataframe(table, use_container_width=True)
+        st.dataframe(table, width="stretch")
         st.write(f"Mean = {fmt(mean)}")
         st.write(f"Sum of squared deviations = {fmt(ss)}")
         st.write(f"Denominator = {denominator}")
@@ -484,7 +484,7 @@ def discrete_calculation(values, frequencies, measure, variance_type):
             "|x − A|": abs_dev,
             "f|x − A|": f_abs_dev
         })
-        st.dataframe(table, use_container_width=True)
+        st.dataframe(table, width="stretch")
         st.write(f"{name} (A) = {fmt(center)}")
         st.write(f"Sum of f|x − A| = {fmt(f_abs_dev.sum())}")
         st.success(f"Mean Deviation = {fmt(md)}")
@@ -520,7 +520,7 @@ def discrete_calculation(values, frequencies, measure, variance_type):
             "(x − Mean)²": sq_dev,
             "f(x − Mean)²": f_sq_dev
         })
-        st.dataframe(table, use_container_width=True)
+        st.dataframe(table, width="stretch")
 
         st.write(f"Mean = {fmt(mean)}")
         st.write(f"Sum of f(x − Mean)² = {fmt(f_sq_dev.sum())}")
@@ -675,7 +675,7 @@ def continuous_calculation(classes, frequencies, measure, variance_type):
             "|x − A|": abs_dev,
             "f|x − A|": f_abs_dev
         })
-        st.dataframe(table, use_container_width=True)
+        st.dataframe(table, width="stretch")
         st.write(f"{name} (A) = {fmt(center)}")
         st.write(f"Sum of f|x − A| = {fmt(f_abs_dev.sum())}")
         st.success(f"Mean Deviation = {fmt(md)}")
@@ -712,7 +712,7 @@ def continuous_calculation(classes, frequencies, measure, variance_type):
             "(x − Mean)²": sq_dev,
             "f(x − Mean)²": f_sq_dev
         })
-        st.dataframe(table, use_container_width=True)
+        st.dataframe(table, width="stretch")
         st.write(f"Mean = {fmt(mean)}")
         st.write(f"Sum of f(x − Mean)² = {fmt(f_sq_dev.sum())}")
         st.success(f"{variance_type} Variance = {fmt(variance)}")
@@ -841,7 +841,7 @@ try:
         edited = st.data_editor(
             sample,
             num_rows="dynamic",
-            use_container_width=True
+            width="stretch"
         )
 
         if st.button("Calculate", type="primary"):
@@ -869,7 +869,7 @@ try:
         edited = st.data_editor(
             sample,
             num_rows="dynamic",
-            use_container_width=True
+            width="stretch"
         )
 
         if st.button("Calculate", type="primary"):
