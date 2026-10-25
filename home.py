@@ -15,10 +15,10 @@ st.set_page_config(
 # HOME PAGE
 # ==========================================================
 
-st.title("📊 Business Statistics Learning Lab")
+st.title("📊 Business Statistics Learning Lab by SR Medaboina")
 
 st.subheader(
-    "Interactive Step-by-Step Statistics for B.Com & BBA Students"
+    "Interactive Step-by-Step Statistics for B.Com, BBA & MBA Students"
 )
 
 st.markdown("""
@@ -96,7 +96,7 @@ with col3:
     """)
 
 st.page_link(
-    "pages/app.py",
+    "pages/part1.py",
     label="📌 Open Part 1 — Central Tendency",
     icon="➡️"
 )
