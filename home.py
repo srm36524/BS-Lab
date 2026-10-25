@@ -96,7 +96,7 @@ with col3:
     """)
 
 st.page_link(
-    "pages/1_Central_Tendency.py",
+    "pages/app.py",
     label="📌 Open Part 1 — Central Tendency",
     icon="➡️"
 )
@@ -142,7 +142,7 @@ with col3:
     """)
 
 st.page_link(
-    "pages/2_Dispersion.py",
+    "pages/part2.py",
     label="📉 Open Part 2 — Dispersion & Shape",
     icon="➡️"
 )
@@ -186,7 +186,7 @@ with col2:
     """)
 
 st.page_link(
-    "pages/3_Correlation_Regression.py",
+    "pages/part3.py",
     label="🔗 Open Part 3 — Correlation & Regression",
     icon="➡️"
 )
@@ -236,7 +236,7 @@ with col3:
     """)
 
 st.page_link(
-    "pages/4_Hypothesis_Testing.py",
+    "pages/part4.py",
     label="🧪 Open Part 4 — Hypothesis Testing",
     icon="➡️"
 )
@@ -281,7 +281,7 @@ with col3:
     """)
 
 st.page_link(
-    "pages/5_Distributions.py",
+    "pages/part5.py",
     label="📊 Open Part 5 — Probability Distributions",
     icon="➡️"
 )
@@ -329,7 +329,7 @@ with col4:
     """)
 
 st.page_link(
-    "pages/6_Statistical_Tables.py",
+    "pages/part6.py",
     label="📚 Open Part 6 — Statistical Tables",
     icon="➡️"
 )
